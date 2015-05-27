@@ -1,0 +1,23 @@
+{
+  "name": "puppetlabs-pe_gem",
+  "version": "0.1.0",
+  "author": "Puppet Labs",
+  "summary": "Adds provider for the Puppet Enterprise Ruby gem manager.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-pe_gem",
+  "project_page": "https://github.com/puppetlabs/puppetlabs-pe_gem",
+  "issues_url": "https://github.com/puppetlabs/puppetlabs-pe_gem/issues",
+  "description": "PE Gem module for Puppet Enterprise",
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.0.0 < 4.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 4.0.0"
+    }
+  ],
+  "dependencies": [
+  ]
+}
