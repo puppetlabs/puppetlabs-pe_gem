@@ -12,4 +12,12 @@ Puppet::Type.type(:package).provide :pe_gem, :parent => :gem do
   has_feature :versionable, :install_options
 
   commands :gemcmd => "/opt/puppet/bin/gem"
+
+  def self.instances
+    if Puppet[:version].to_f >= 4.0
+      warn "DEPRECATION: As of Puppet 4.0, the pe_gem provider for the package resource has been deprecated. Please use the puppet_gem provider instead."
+    end
+
+    super
+  end
 end
