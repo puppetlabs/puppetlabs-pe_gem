@@ -1,8 +1,0 @@
-name    'puppetlabs-pe_gem'
-version '0.1.0'
-source  'https://github.com/puppetlabs/puppetlabs-pe_gem'
-author  'Puppet Labs'
-license 'Apache License 2.0'
-summary 'Adds provider for the Puppet Enterprise Ruby gem manager.'
-description 'PE Gem module for Puppet Enterprise'
-project_page 'https://github.com/puppetlabs/puppetlabs-pe_gem'
