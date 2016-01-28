@@ -1,3 +1,7 @@
+## Release 0.2.0
+### Summary
+This release adds windows compatibility.
+
 ## Release 0.1.2
 ### Summary
 
